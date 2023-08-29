@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\TaskController;
 use App\Http\Controllers\UserController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Auth::logout();
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -27,4 +30,4 @@ Route::get('/tasks/{user}', [TaskController::class, 'show'])->name('tasks.show')
 Route::put('/tasks/{user}', [TaskController::class, 'update'])->name('tasks.update');
 Route::delete('/tasks/{user}', [TaskController::class, 'delete'])->name('tasks.delete');
 
-Route::resource('/users', UserController::class);
+Route::resource('/users', UserController::class)->middleware(['admin']);
