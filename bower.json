@@ -1,0 +1,21 @@
+{
+  "name": "laravel-quicktask",
+  "description": "",
+  "main": "",
+  "authors": [
+    "dungpt <pham.tien.dung@sun-asterisk.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dungpt-0371/laravel_quicktask",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "template-bower-example": "manhtd-1083/template-bower-example"
+  }
+}
