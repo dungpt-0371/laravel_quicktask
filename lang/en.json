@@ -70,5 +70,12 @@
     "Whoops!": "Whoops!",
     "You are receiving this email because we received a password reset request for your account.": "You are receiving this email because we received a password reset request for your account.",
     "You're logged in!": "You're logged in!",
-    "Your email address is unverified.": "Your email address is unverified."
+    "Your email address is unverified.": "Your email address is unverified.",
+    "User List": "User list",
+    "User Edit": "User Edit",
+    "Create": "Create",
+    "Delete": "Delete",
+    "Edit": "Edit",
+    "Username": "Username",
+    "Action": "Action"
 }
